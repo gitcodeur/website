@@ -4,24 +4,41 @@ h1{
 }
 
 body{
-    background: #86AAA4;
+    background: #D3E2E5;
 
 }
 
 
+
 h3{
-    margin:20px
+    margin:2px
+    font-family: arial, sans-sherif;
 }
 
 a{
     float : right ;
     heigt: 5px;
     width: 50px;
-    text-color:#000000;
+
+    text-align:center;
     text-decoration:none;
-    background: #619C8F;
+    background: transparent;
     border: none;
     border-radius:5px;
     cursor: pointer;
     transform: translate(3px, -15px);
+    text-color: #000000;
 }
+
+h2{
+    text-decoration: underline;
+    margin: 20px
+}
+
+.vieuxpc{
+    float:right;
+    transform: translate(-90px, -357px);
+
+
+}
+
