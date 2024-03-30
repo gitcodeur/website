@@ -5,21 +5,20 @@ h1{
 
 body{
     background: #D3E2E5;
-
+    border-bottom: 50px solid #7BA59F;
+    border-radius:5px;
 }
-
-
 
 h3{
     margin:2px
     font-family: arial, sans-sherif;
+    font-size: 1vw;
 }
 
-a{
+.login{
     float : right ;
-    heigt: 5px;
+    height: 20px;
     width: 50px;
-
     text-align:center;
     text-decoration:none;
     background: transparent;
@@ -28,6 +27,7 @@ a{
     cursor: pointer;
     transform: translate(3px, -15px);
     text-color: #000000;
+    transition: all .3s;
 }
 
 h2{
@@ -37,8 +37,17 @@ h2{
 
 .vieuxpc{
     float:right;
-    transform: translate(-90px, -357px);
-
-
+    transform: translate(-200px, -357px);
 }
 
+.python1{
+    text-decoration: none;
+}
+
+.python{
+    text-color: #000000;
+}
+
+.login:hover{
+    background:#B5A7A7 ;
+}
